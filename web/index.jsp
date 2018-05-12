@@ -1,16 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: zamza
-  Date: 12.05.2018
-  Time: 22:33
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+    <form action="response.jsp">
+      First string: <input type="text" name="first"><br/>
+      Second string: <input type="text" name="second"><br/>
+      Third string: <input type="text" name="third"><br/>
+    <input type="submit" name="submit" value="submit">
   </body>
 </html>
